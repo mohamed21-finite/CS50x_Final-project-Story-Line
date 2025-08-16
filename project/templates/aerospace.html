@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %} Aerospace {% endblock %}
+
+{% block content %}
+<img class = "img-fluid" src="static/aircraft.jpg" id="banner">
+<div class="container">
+ <h1 class="text-center mt-2 mb-4">Aerospace field</h1>
+
+  <div class="row" style="margin-bottom:16px;">
+         <div class="col-md-6 mt-2">
+    <p  class="lead">
+        {{aerospace}}
+     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6 mt-2">
+      <img src="/static/aircraft2.jpg" style="height: 320px; width:600px ; border-radius:4px;">
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom:16px;">
+        <h2 class="text-left mt-2 mb-2">Aerodynamic</h2>
+         <div class="col-md-6 mt-2">
+    <p  class="lead">
+        {{aero}}
+     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6 mt-2">
+      <img src="/static/aero.jpg" style="height: 320px; width:600px ; border-radius:4px;">
+      </div>
+    </div>
+
+    <div class="row" style="margin-bottom:16px;">
+        <h2 class="text-left mt-2 mb-2">Sturcture</h2>
+         <div class="col-md-6 mt-2">
+    <p  class="lead">
+        {{structure}}
+     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6 mt-2">
+      <img src="/static/structur.jpg" style="height: 320px; width:600px ; border-radius:4px;">
+      </div>
+    </div>
+
+     <div class="row" style="margin-bottom:16px;">
+        <h2 class="text-left mt-2 mb-2">Propulsion</h2>
+         <div class="col-md-6 mt-2">
+    <p  class="lead">
+        {{prop}}
+     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6 mt-2">
+      <img src="/static/propulsion.jpg" style="height: 320px; width:600px ; border-radius:4px;">
+      </div>
+    </div>
+
+     <div class="row" style="margin-bottom:16px;">
+        <h2 class="text-left mt-2 mb-2">Control</h2>
+         <div class="col-md-6 mt-2">
+    <p  class="lead">
+        {{cont}}
+     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6 mt-2">
+      <img src="/static/control.jpg" style="height: 320px; width:600px ; border-radius:4px;">
+      </div>
+    </div>
+
+     <div class="row" style="margin-bottom:16px;">
+        <h2 class="text-left mt-2 mb-2">Space</h2>
+         <div class="col-md-6 mt-2">
+    <p  class="lead">
+        {{space}}
+     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6 mt-2">
+      <img src="/static/space.jpg" style="height: 320px; width:600px ; border-radius:4px;">
+      </div>
+    </div>
+
+</div>
+
+{% endblock %}

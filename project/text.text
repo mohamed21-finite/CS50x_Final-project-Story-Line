@@ -1,0 +1,82 @@
+CREATE TABLE information(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    description TEXT,
+    link VARCHAR(100)
+);
+
+INSERT INTO informations (name = "Mohamed Shaarawy Mohamed" AND
+ description = "I'm an Aerospace Engineer graduated from Cairo University 2025 Studying many fields in Computer Science and programming in the mean time.");
+
+INSERT INTO informations (name, description)
+VALUES ("Mohamed Shaarawy Mohamed",
+"I'm an Aerospace Engineer graduated from Cairo University 2025 Studying many fields in Computer Science and programming in the mean time.");
+
+
+INSERT INTO informations (name, description)
+VALUES ("Childhood",
+"I was a pretty smart child according to my teachers’ sayings, but my childhood was tough in some ways,
+ but in the most the life was good at that time I was feeling peace watching my loved cartoons and anime.
+ My favorite anime is YO-GI-OH! and still my favorite.");
+
+
+
+INSERT INTO informations (name, description)
+VALUES ("High School",
+"that was the most part of my life interesting, I was really happy in that time with my favorite friend at this time his name is Abanoub we were outstanding we had a huge fans
+I was pretty famous in the school most of the students know who I am and I had much respect from my colleagues and my teachers.");
+
+
+
+
+INSERT INTO informations (name, description)
+VALUES ("Dreams",
+"I had many dreams over my life years; I achieved some of them and some I couldn’t one of my dreams that
+ I couldn’t achieve is to become a famous football player and play in Europe clubs but I choose to focus in my study instead because
+ I was a big fan to Cristiano Ronaldo, he is my favorite player, and I consider him the GOAT.");
+
+
+INSERT INTO informations (name, description)
+VALUES ("College Education",
+"This was the toughest part of my life because of many reasons.
+ After the high school I got a great score and I choose to study Engineering until then everything was good during my first year and when it comes the second year COVID-19 happened we had to change the method of study from offline to online.
+ It was hard transformation to me I wasn’t ready for this I got depression that last with me for three years beside the Economic situation in my country I beat all of that and now I am stronger than before.");
+
+
+INSERT INTO informations (name, description)
+VALUES ("Present plans",
+"My plans are to complete a diploma in the Embedded systems and AI & Data Science besides that I want to complete many courses from CS50 as I can.
+ CS50x really added much to me I’m very grateful to the Staff and Specially Professor David Malan, Yulia, Brian and Dough Loid. Thank you, guys, very much. I hope you are seeing this.");
+
+INSERT INTO informations (name, description)
+VALUES ("Aerospace field",
+"Aerospace is really a tough field to study it divides into four or may be five core sections first one and is the most important is Aerodynamic the second one is Structure the third is Propulsion the fourth is Control the fifth is Space itself.
+ In the coming section I will talk about every section in details. ");
+
+
+INSERT INTO informations (name, description)
+VALUES ("Aerodynamic",
+"Aerodynamic is the foundation of the airplanes this field is a branch of the fluid mechanics but focus in Air behavior.
+ The whole target of this field is to minimize the Drag and enhance the Lift so we need to tune the Lift to Drag ratio Equation to achieve the best performance of the aircraft.");
+
+INSERT INTO informations (name, description)
+VALUES ("Structure",
+"This field is very important and it is not less important than Aerodynamic to the aircraft.
+ Here we are dealing with the weight equation to the strength of the body of the aircraft we need to achieve the much strength with minimum weight.
+ Because the weight to the aircraft is essential in order to fly. ");
+
+
+INSERT INTO informations (name, description)
+VALUES ("Propulsion",
+"Here we are dealing with the engines of the aircraft. In order to design the engine that fit for the aircraft according to its mission and its size.");
+
+INSERT INTO informations (name, description)
+VALUES ("Control",
+"This field is pretty interesting here we are making controller for the aircraft and Autopilot. We configure how to control the aircraft to achieve a specific mission.");
+
+INSERT INTO informations (name, description)
+VALUES ("Space",
+"Here we are dealing with the outer space and rockets and Satellite.");
+
+
+SELECT description FROM informations WHERE name = "Childhood" ;

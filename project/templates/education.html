@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Education {% endblock %}
+
+{% block content %}
+<img class = "img-fluid" src="static/uni.jpg" id="banner">
+<div class="container">
+ <h1 class="text-center mt-2 mb-4">University</h1>
+
+  <div class="row" style="margin-bottom:16px;">
+     <h2 class="text-left mt-2 mb-4">College</h2>
+         <div class="col-md-6 mt-2">
+    <p  class="lead">
+        {{college}}
+     </p>
+      </div>
+      <div class="d-none d-md-block col-md-6 mt-2">
+      <img src="/static/engin.webp" style="height: 320px; width:600px ; border-radius:4px;">
+      </div>
+    </div>
+
+</div>
+
+{% endblock %}

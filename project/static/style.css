@@ -1,0 +1,11 @@
+.circle-photo{
+    border-radius: 50%
+}
+
+#banner{
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 16px;
+
+      }
